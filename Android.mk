@@ -24,13 +24,13 @@ TOP_LOCAL_PATH:= $(call my-dir)
 LOCAL_PATH:= $(TOP_LOCAL_PATH)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE_TAGS := samples
+LOCAL_MODULE_TAGS := optional
 
 LOCAL_SRC_FILES := $(call all-subdir-java-files)
 
-LOCAL_PACKAGE_NAME := SimpleJNI
+LOCAL_PACKAGE_NAME := NeZero
 
-LOCAL_JNI_SHARED_LIBRARIES := libsimplejni
+LOCAL_JNI_SHARED_LIBRARIES := libnezerojni
 
 LOCAL_PROGUARD_ENABLED := disabled
 

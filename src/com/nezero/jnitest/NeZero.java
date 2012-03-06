@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2008 The Android Open Source Project
+ * Copyright (C) 2012 www.nezero.co.uk (Liam Alford aka Ne0)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.android.simplejni;
+package com.nezero.jnitest;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class SimpleJNI extends Activity {
+public class NeZero extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,7 +36,7 @@ class Native {
     static {
     	// The runtime will add "lib" on the front and ".o" on the end of
     	// the name supplied to loadLibrary.
-        System.loadLibrary("simplejni");
+        System.loadLibrary("nezerojni");
     }
 
     static native int add(int a, int b);

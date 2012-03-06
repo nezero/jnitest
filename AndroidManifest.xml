@@ -17,9 +17,9 @@
 <!-- This is an example of writing an application that bundles a
      native code library. -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-      package="com.example.android.simplejni">
-    <application android:label="Simple JNI">
-        <activity android:name="SimpleJNI">
+      package="com.nezero.jnitest">
+    <application android:label="NeZero">
+        <activity android:name="NeZero">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

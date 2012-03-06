@@ -20,10 +20,10 @@
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
-LOCAL_MODULE_TAGS := samples
+LOCAL_MODULE_TAGS := optional
 
 # This is the target being built.
-LOCAL_MODULE:= libsimplejni
+LOCAL_MODULE:= libnezerojni
 
 
 # All of the source files that we will compile.
